@@ -5,7 +5,7 @@ const Dashboard = React.lazy(() => import('./../views/dashboard'));
 const Team = React.lazy(() => import("./../views/team"));
 const Contact = React.lazy(() => import("./../views/contact"));
 const Invoice = React.lazy(() => import("./../views/invoice"));
-// const Form = React.lazy(() => import("./../views/form"));
+const Form = React.lazy(() => import("./../views/form"));
 // const Bar = React.lazy(() => import("./../views/bar"));
 // const Pie = React.lazy(() => import("./../views/pie"));
 // const Line = React.lazy(() => import("./../views/line"));
@@ -20,7 +20,7 @@ const TheContent = () => {
 			<Route path='/team' element={<Team />} />
 			<Route path='/contacts' element={<Contact />} />
 			<Route path='/invoices' element={<Invoice />} />
-			{/* <Route path='/form' element={<Form />} /> */}
+			<Route path='/create-member' element={<Form />} />
 			{/* <Route path='/bar' element={<Bar />} /> */}
 			{/* <Route path='/pie' element={<Pie />} /> */}
 			{/* <Route path='/line' element={<Line />} /> */}

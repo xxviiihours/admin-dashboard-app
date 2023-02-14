@@ -27,7 +27,7 @@ const _nav = [
 	{
 		header: 'Pages',
 		child: [
-			{ title: 'Profile Form', url: '/form', icon: <PersonOutlinedIcon /> },
+			{ title: 'Profile Form', url: '/create-member', icon: <PersonOutlinedIcon /> },
 			{ title: 'Calendar', url: '/calendar', icon: <CalendarTodayOutlinedIcon /> },
 			{ title: 'FAQ Page', url: '/faq', icon: <HelpOutlinedIcon /> },
 		],
