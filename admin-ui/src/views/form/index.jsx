@@ -4,6 +4,7 @@ import { Box, Button, useMediaQuery } from '@mui/material';
 import { Formik } from 'formik';
 import ContentHeader from '../../components/ContentHeader';
 import FormDetails from './FormDetails';
+import { phoneRegExp } from '../../helpers/utils';
 
 const initialValue = {
 	firstName: '',
@@ -13,8 +14,6 @@ const initialValue = {
 	address1: '',
 	address2: '',
 };
-
-const phoneRegExp = /^(09|\+639)\d{9}$/;
 
 const memberSchema = yup.object().shape({
 	firstName: yup.string().required('First name is required.'),
