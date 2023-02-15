@@ -1,7 +1,7 @@
 import React from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import { mockPieData as data } from './../data/mockData';
-import { useTheme, Box } from '@mui/material';
+import { useTheme } from '@mui/material';
 import { tokens } from './../theme';
 
 const PieChart = ({ isDashboard = false }) => {
