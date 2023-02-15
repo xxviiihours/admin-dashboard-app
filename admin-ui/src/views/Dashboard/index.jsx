@@ -45,6 +45,7 @@ const Dashboard = () => {
 			{/* Base Content of the Dashboard */}
 			<Box
 				display={'grid'}
+				mt={'-14px'}
 				gridTemplateColumns={'repeat(12, 1fr)'}
 				gridAutoRows={'130px'}
 				gap={'20px'}
@@ -130,7 +131,7 @@ const Dashboard = () => {
 							<Typography variant='h5' fontWeight={'600'} color={colors.grey[100]}>
 								Revenue Generated
 							</Typography>
-							<Typography variant='h3' fontWeight={'600'} color={colors.greenAccent[100]}>
+							<Typography variant='h3' fontWeight={'bold'} color={colors.greenAccent[500]}>
 								{currencyFormatter(500304)}
 							</Typography>
 						</Box>

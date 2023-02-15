@@ -10,7 +10,7 @@ const TheLayout = () => {
 	return (
 		<>
 			<TheSidebar />
-			<main className='content'>
+			<main className='content' style={{ overflow: 'auto' }}>
 				{/* The Header */}
 				<TheHeader />
 
