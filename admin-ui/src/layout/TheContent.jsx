@@ -11,7 +11,7 @@ const FAQ = React.lazy(() => import("../views/FAQ"));
 const Bar = React.lazy(() => import("./../views/Bar"));
 const Pie = React.lazy(() => import("./../views/Pie"));
 const Line = React.lazy(() => import("./../views/Line"));
-// const Geography = React.lazy(() => import("./../views/geography"));
+const Geography = React.lazy(() => import("./../views/Geography"));
 
 const TheContent = () => {
 	return (
@@ -26,8 +26,7 @@ const TheContent = () => {
 			<Route path='/bar' element={<Bar />} />
 			<Route path='/pie' element={<Pie />} />
 			<Route path='/line' element={<Line />} />
-			{/* <Route path='/geography' element={<Geography />} /> */}
-			{/* <Route path='/calendar' element={<Calendar />} /> */}
+			<Route path='/geography' element={<Geography />} />
 		</Routes>
 	);
 };
