@@ -25,6 +25,7 @@ const memberSchema = yup.object().shape({
 	email: yup.string().email('Invalid email address.').required('Email address is required.'),
 	address1: yup.string().required('Address is required.'),
 });
+
 const Form = () => {
 	const isNonMobile = useMediaQuery('(min-width:600px)');
 	const handleSubmit = (values) => {
