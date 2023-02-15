@@ -1,5 +1,5 @@
 import React from 'react';
-import OInput from './../../components/OInput';
+import OInput from '../../components/OInput';
 import { Field } from 'formik';
 import { Box } from '@mui/material';
 

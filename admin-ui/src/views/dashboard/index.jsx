@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import React from 'react';
-import ContentHeader from './../../components/ContentHeader';
+import ContentHeader from '../../components/ContentHeader';
 
 const Dashboard = () => {
 	return (

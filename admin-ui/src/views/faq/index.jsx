@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, useTheme } from '@mui/material';
-import ContentHeader from './../../components/ContentHeader';
-import { tokens } from './../../theme';
+import ContentHeader from '../../components/ContentHeader';
+import { tokens } from '../../theme';
 import FAQItem from './FAQItem';
 
 const faqList = [

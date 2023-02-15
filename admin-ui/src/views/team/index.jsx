@@ -1,10 +1,10 @@
 import { Box, Typography, useTheme } from '@mui/material';
 import React from 'react';
 import ContentHeader from '../../components/ContentHeader';
-import { tokens } from './../../theme';
+import { tokens } from '../../theme';
 import { DataGrid } from '@mui/x-data-grid';
 
-import { mockDataTeam } from './../../data/mockData';
+import { mockDataTeam } from '../../data/mockData';
 
 import AdminPanelSettingsOutlinedIcon from '@mui/icons-material/AdminPanelSettingsOutlined';
 import LockOpenOutlinedIcon from '@mui/icons-material/LockOpenOutlined';

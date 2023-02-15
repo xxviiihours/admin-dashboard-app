@@ -3,7 +3,7 @@ import * as yup from 'yup';
 import { Box, Button, useMediaQuery } from '@mui/material';
 import { Formik } from 'formik';
 import ContentHeader from '../../components/ContentHeader';
-import FormDetails from './formDetails';
+import FormDetails from './FormDetails';
 
 const initialValue = {
 	firstName: '',

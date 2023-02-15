@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-const Dashboard = React.lazy(() => import('./../views/dashboard'));
-const Team = React.lazy(() => import("./../views/team"));
-const Contact = React.lazy(() => import("./../views/contact"));
-const Invoice = React.lazy(() => import("./../views/invoice"));
-const Form = React.lazy(() => import("./../views/form"));
-const Calendar = React.lazy(() => import("./../views/calendar"));
-const FAQ = React.lazy(() => import("./../views/faq"));
+const Dashboard = React.lazy(() => import('../views/Dashboard'));
+const Team = React.lazy(() => import("../views/Team"));
+const Contact = React.lazy(() => import("../views/Contact"));
+const Invoice = React.lazy(() => import("../views/Invoice"));
+const Form = React.lazy(() => import("../views/Form"));
+const Calendar = React.lazy(() => import("../views/Calendar"));
+const FAQ = React.lazy(() => import("../views/FAQ"));
 // const Bar = React.lazy(() => import("./../views/bar"));
 // const Pie = React.lazy(() => import("./../views/pie"));
 // const Line = React.lazy(() => import("./../views/line"));
