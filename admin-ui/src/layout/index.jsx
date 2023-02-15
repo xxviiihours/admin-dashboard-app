@@ -2,6 +2,9 @@ import React from 'react';
 import TheContent from './TheContent';
 import TheHeader from './TheHeader';
 import TheSidebar from './TheSidebar';
+import { CircularProgress } from '@mui/material';
+
+const loadingIndicator = <CircularProgress />;
 
 const TheLayout = () => {
 	return (
@@ -10,8 +13,11 @@ const TheLayout = () => {
 			<main className='content'>
 				{/* The Header */}
 				<TheHeader />
-				{/* The Content */}
-				<TheContent />
+
+				<React.Suspense fallback={loadingIndicator}>
+					{/* The Content */}
+					<TheContent />
+				</React.Suspense>
 			</main>
 		</>
 	);
